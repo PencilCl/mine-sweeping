@@ -1,0 +1,33 @@
+.border {
+	display: flex;
+	flex-wrap:wrap;
+	align-content: space-between;
+	border: 1px solid black;
+	margin: 50px auto;
+}
+
+.pane {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 25px;
+	height: 25px;
+	border: 1px solid blue;
+	background-color: #ccc;
+	margin: 0px 1px;
+}
+
+.reveal {
+	background-color: white;
+}
+
+.row {
+	flex-basis: 100%;
+	display: flex;
+	justify-content:space-between;
+	margin: 1px 0px;
+}
+
+.mine {
+	background-color: black;
+}
